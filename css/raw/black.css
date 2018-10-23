@@ -2315,9 +2315,9 @@ ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_c
 
 #whats_new_tab .flex_heading_controls label { color: #949494; }
 
-.p-downloads_list .p-download_item__container .p-download_item__size_row .p-download_item__actions { background: #222; }
+.p-downloads_list .p-download_item:hover .p-download_item__container .p-download_item__size_row .p-download_item__actions { background: #363636; }
 
-.p-downloads_list .p-download_item__container .p-download_item__size_row .p-download_item__actions:hover { background: #222; }
+.p-downloads_list .p-download_item__container .p-download_item__size_row .p-download_item__actions:hover { background: #363636; }
 
 .p-downloads_list .p-downloads_list__shift_hint { background: transparent; }
 

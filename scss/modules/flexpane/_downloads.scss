@@ -1,10 +1,20 @@
 .p-downloads_list {
+  .p-download_item {
+    &:hover {
+      .p-download_item__container {
+        .p-download_item__size_row {
+          .p-download_item__actions {
+            background: $color-shade-dark;
+          }
+        }
+      }
+    }
+  }
   .p-download_item__container {
     .p-download_item__size_row {
       .p-download_item__actions {
-        background: $color-base;
-        &:hover  {
-          background: $color-base;
+        &:hover {
+          background: $color-shade-dark;
         }
       }
     }
@@ -14,5 +24,4 @@
     background: transparent;
   }
 }
-
 
