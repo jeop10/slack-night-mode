@@ -2315,6 +2315,10 @@ ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_c
 
 #whats_new_tab .flex_heading_controls label { color: #949494; }
 
+.p-downloads_list .p-download_item__container .p-download_item__size_row .p-download_item__actions:hover { background: #222; }
+
+.p-downloads_list .p-downloads_list__shift_hint { background: transparent; }
+
 .c-member__display-name, .c-team__display-name, .c-usergroup__handle { color: #e6e6e6; }
 
 .c-member__current-status--small::before, .c-member__secondary-name--large + .c-member__current-status--large::before, .c-member__secondary-name--medium + .c-member__current-status--medium::before { color: #e6e6e6; }

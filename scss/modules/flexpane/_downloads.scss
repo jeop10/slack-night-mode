@@ -1,0 +1,17 @@
+.p-downloads_list {
+  .p-download_item__container {
+    .p-download_item__size_row {
+      .p-download_item__actions {
+        &:hover  {
+          background: $color-base;
+        }
+      }
+    }
+  }
+
+  .p-downloads_list__shift_hint {
+    background: transparent;
+  }
+}
+
+
