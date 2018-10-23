@@ -13,6 +13,7 @@
   .p-download_item__container {
     .p-download_item__size_row {
       .p-download_item__actions {
+        background: $color-shade-dark;
         &:hover {
           background: $color-shade-dark;
         }
