@@ -2,6 +2,7 @@
   .p-download_item__container {
     .p-download_item__size_row {
       .p-download_item__actions {
+        background: $color-base;
         &:hover  {
           background: $color-base;
         }
