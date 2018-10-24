@@ -2865,11 +2865,11 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .me
 
 #share_dialog_input_container #file_comment_textarea.ql-container.focus ~ .emo_menu { color: #e6e6e6; }
 
-.file_upload_dialog { background-color: #222222; box-shadow: 0 1px 0 #222222; }
+.p-file_upload_dialog { background-color: #222222; box-shadow: 0 1px 0 #222222; }
 
-.file_upload_dialog .c-dialog__header { background: #000; border-bottom: 1px solid #363636; color: #e6e6e6; }
+.p-file_upload_dialog .c-dialog__header { background: #000; border-bottom: 1px solid #363636; color: #e6e6e6; }
 
-.file_upload_dialog .footer { background: padding-box #222; border-top: 1px solid transparent; box-shadow: none; }
+.p-file_upload_dialog .footer { background: padding-box #222; border-top: 1px solid transparent; box-shadow: none; }
 
 .ts_tip .ts_tip_multiline_inner, .ts_tip:not(.ts_tip_multiline) .ts_tip_tip { background: #545454; }
 
