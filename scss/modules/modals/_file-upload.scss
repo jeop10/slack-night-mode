@@ -3,7 +3,7 @@
   box-shadow: 0 1px 0 $color-shade-darker;
 
   .c-dialog__header {
-    background: $color-shade-darkest;
+    background: $color-shade-darker;
 
     h3 {
       color: $base-font-color;
@@ -12,15 +12,21 @@
     color: $base-font-color;
   }
 
+  .c-label__text {
+    color: $white;
+  }
+
   .c-dialog__footer {
     background: padding-box #222;
     border-top: 1px solid transparent;
     box-shadow: none;
 
-    .btn {
-      background-color: $color-shade-light;
-      color: $base-font-color !important;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    .c-dialog__footer_buttons {
+      .c-button {
+        background-color: $color-shade-light;
+        color: $base-font-color !important;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+      }
     }
   }
 }
