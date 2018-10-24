@@ -2867,9 +2867,13 @@ ts-jumper ol li.highlighted .channel_not_member, ts-jumper ol li.highlighted .me
 
 .p-file_upload_dialog { background-color: #222222; box-shadow: 0 1px 0 #222222; }
 
-.p-file_upload_dialog .c-dialog__header { background: #000; border-bottom: 1px solid #363636; color: #e6e6e6; }
+.p-file_upload_dialog .c-dialog__header { background: #000; color: #e6e6e6; }
 
-.p-file_upload_dialog .footer { background: padding-box #222; border-top: 1px solid transparent; box-shadow: none; }
+.p-file_upload_dialog .c-dialog__header h3 { color: #e6e6e6; }
+
+.p-file_upload_dialog .c-dialog__footer { background: padding-box #222; border-top: 1px solid transparent; box-shadow: none; }
+
+.p-file_upload_dialog .c-dialog__footer .btn { background-color: #545454; color: #e6e6e6 !important; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
 
 .ts_tip .ts_tip_multiline_inner, .ts_tip:not(.ts_tip_multiline) .ts_tip_tip { background: #545454; }
 
