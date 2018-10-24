@@ -1,4 +1,9 @@
 .p-downloads_list {
+  .p-flexpane_header {
+    background: darken($color-base, 5%);
+    border-bottom-color: $color-shade-dark;
+    color: $color-highlight;
+  }
   .p-download_item {
     &:hover {
       .p-download_item__container {
@@ -25,4 +30,6 @@
     background: transparent;
   }
 }
+
+
 

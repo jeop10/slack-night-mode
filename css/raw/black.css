@@ -2315,6 +2315,8 @@ ts-thread .collapse_inline_thread_container:hover, ts-thread .view_all_replies_c
 
 #whats_new_tab .flex_heading_controls label { color: #949494; }
 
+.p-downloads_list .p-flexpane_header { background: #151515; border-bottom-color: #363636; color: #949494; }
+
 .p-downloads_list .p-download_item:hover .p-download_item__container .p-download_item__size_row .p-download_item__actions { background: #363636; }
 
 .p-downloads_list .p-download_item__container .p-download_item__size_row .p-download_item__actions { background: #363636; }
