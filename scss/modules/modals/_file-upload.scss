@@ -3,13 +3,17 @@
   box-shadow: 0 1px 0 $color-shade-darker;
 
   .c-dialog__header {
-    background: $color-shade-darker;
+    background: $color-shade-darkest;
 
     h3 {
       color: $base-font-color;
     }
 
     color: $base-font-color;
+  }
+
+  .c-dialog__body {
+    padding: 20px 0 0 0;
   }
 
   .c-label__text {
