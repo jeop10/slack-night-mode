@@ -710,6 +710,8 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .p-message_actions_menu .c-menu__items .c-menu_item__li--highlighted .c-menu_item__button--highlighted { background: #222; border-bottom-color: #000; color: #e6e6e6; text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15); }
 
+.p-message_actions_menu .c-menu__items .c-menu_item__li--highlighted .c-menu_item__button--highlighted .c-menu_item__button--danger { background: #bf360c; }
+
 .p-message_actions_menu .c-menu__items .c-menu_separator__li .c-menu_separator__separator { border-top: 1px solid #545454; }
 
 .p-message_actions_menu .c-menu__items .c-submenu .c-submenu__container .c-menu { background: #363636; }
