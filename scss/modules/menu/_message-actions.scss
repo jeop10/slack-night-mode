@@ -7,10 +7,12 @@
         .c-menu_item__label {
           color: $base-font-color;
           .c-menu_item__li--highlighted {
-            background: $color-base;
-            border-bottom-color: $color-shade-darkest;
-            color: $base-font-color;
-            text-shadow: 0 1px 0 $color-shadow-light;
+            .c-menu_item__button--highlighted {
+              background: $color-base;
+              border-bottom-color: $color-shade-darkest;
+              color: $base-font-color;
+              text-shadow: 0 1px 0 $color-shadow-light;
+            }
           }
         }
       }
