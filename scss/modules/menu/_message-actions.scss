@@ -16,10 +16,12 @@
         border-bottom-color: $color-shade-darkest;
         color: $base-font-color;
         text-shadow: 0 1px 0 $color-shadow-light;
+      }
+    }
 
-        .c-menu_item__button--danger {
-          background: $color-red;
-        }
+    .c-menu_item__button--danger {
+      .c-menu_item__button--highlighted {
+        background: $color-red;
       }
     }
 
