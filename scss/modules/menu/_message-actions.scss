@@ -6,7 +6,7 @@
       .c-button-unstyled {
         .c-menu_item__label {
           color: $base-font-color;
-          &.c-menu_item__li--highlighted {
+          .c-menu_item__li--highlighted {
             background: $color-base;
             border-bottom-color: $color-shade-darkest;
             color: $base-font-color;
@@ -23,7 +23,11 @@
     }
 
     .c-submenu {
-      background: $color-shade-dark;
+      .c-submenu__container {
+        .c-menu {
+          background: $color-shade-dark;
+        }
+      }
     }
   }
 }
