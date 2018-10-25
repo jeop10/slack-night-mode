@@ -1,0 +1,23 @@
+.p-message_actions_menu {
+  background: $color-shade-dark;
+
+  .c-menu_item__li {
+    .c-button-unstyled {
+      .c-menu_item__label {
+        color: $base-font-color;
+        &.c-menu_item__li--highlated {
+          background: $color-base;
+          border-bottom-color: $color-shade-darkest;
+          color: $base-font-color;
+          text-shadow: 0 1px 0 $color-shadow-light;
+        }
+      }
+    }
+
+    .c-menu_separator__li {
+      .c-menu_separator__separator {
+        border-top: 1px solid $color-shade-light;
+      }
+    }
+  }
+}
